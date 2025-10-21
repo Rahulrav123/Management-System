@@ -1,0 +1,85 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: #f5f6fa;
+  color: #333;
+}
+
+header {
+  background: #2d3436;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.form-section, .table-section {
+  width: 80%;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #0984e3;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #74b9ff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.actions button {
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.actions button.delete {
+  background: #d63031;
+}
+
+footer {
+  text-align: center;
+  background: #2d3436;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
